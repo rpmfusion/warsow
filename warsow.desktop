@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Warsow
+Comment=Fast paced 3D first person shooter
+Icon=warsow
+Exec=warsow
+Terminal=false
+Type=Application
+Categories=Game;ArcadeGame;
