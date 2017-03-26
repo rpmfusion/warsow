@@ -3,7 +3,7 @@
 
 Name:           warsow
 Version:        1.02
-Release:        2%{?dist}
+Release:        3%{?dist}
 Summary:        Fast paced 3D first person shooter
 
 License:        GPLv2+
@@ -140,6 +140,9 @@ gtk-update-icon-cache %{_datadir}/icons/hicolor &>/dev/null || :
 %{_bindir}/warsow-tv-server
 
 %changelog
+* Sun Mar 26 2017 RPM Fusion Release Engineering <kwizart@rpmfusion.org> - 1.02-3
+- Rebuilt for https://fedoraproject.org/wiki/Fedora_26_Mass_Rebuild
+
 * Mon May 06 2013 Kalev Lember <kalevlember@gmail.com> - 1.02-2
 - Review fixes (https://bugzilla.rpmfusion.org/show_bug.cgi?id=2762):
 - Require hicolor-icon-theme
